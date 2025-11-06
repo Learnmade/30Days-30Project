@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JeyaSurya | Portfolio </title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-white text-gray-900 transition duration-500">
+     <!-- Header -->
+      <header class="flex justify-between items-center p-6 shadow-md">
+        <h1 class="text-2xl font-bold text-blue-600">JeyaSurya M</h1>
+        <!-- navigation -->
+        <nav class="space-x-6">
+            <a href="#home" class="hover:text-blue-600">Home</a>
+            <a href="#about" class="hover:text-blue-600">About</a>
+            <a href="#skills" class="hover:text-blue-600">Skills</a>
+            <a href="#projects" class="hover:text-blue-600">Project</a>
+            <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </nav>
+        <button id="darktoggle" class="px-4 py-2 rounded bg-gray-200 text-black">dark</button>
+      </header>
+
+      <!-- Hero -->
+      <section id="home" class="flex flex-col items-center justify-center h-screen bg-gray-50">
+        <img alt="profile" src="./assests/profile.png " class="w-40 h-40 rounded-full shadow-lg mb-6">
+        <h2 class="text-4xl font-bold mb-2">Hi iam <span class="text-blue-600">JeyaSurya M</span></h2>
+        <p class="text-lg mb-2">Full Stack developer | IOT Enthusiast</p>
+        <a class="bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700">Download Resume</a>
+      </section>
+
+      <!-- About -->
+       <section id="about" class="bg-white  text-center">
+            <h2 class="text-3xl font-bold mb-4 text-blue-600">About Me</h2>
+            <p class="max-w-3xl mx-auto text-gray-700">Iam a full stack developer with 2 years of experieance </p>
+       </section>
+
+       <!-- Skills -->
+        <section id="skills" class="p-10 text-center bg-gray-100">
+            <h2 class="text-3xl font-bold mb-6 text-blue-600">Skills</h2>
+            <div class="flex flex-wrap gap-4 justify-center">
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full">HTML</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full">CSS</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full">JavaScript</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full">Django</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-700 rounded-full">Tailwindcss</span>
+            </div>
+        </section>
+
+        <!-- Project -->
+         <section id="projects" class="p-10 text-center">
+            <h2 class="text-3xl font-bold mb-6 text-blue-600">Projects</h2>
+            <div class="grid md:grid-cols-3 gap-6 ">
+                <div class="bg-white shadow-lg rounded-lg hover:scale-105 transition">
+                    <img alt="Blutooth car" class="rounded mb-3">
+                    <h3 class="font-bold text-xl">Bluetooth Car</h3>
+                    <p class="text-gray-700 mb-2">Iot project using esp32 and Hc-05 module.</p>
+                    <a href="#" class="text-blue-600">View on GitHub</a>
+                </div>
+                 <div class="bg-white shadow-lg rounded-lg hover:scale-105 transition">
+                    <img alt="Blutooth car" class="rounded mb-3">
+                    <h3 class="font-bold text-xl">E-Learning Platform</h3>
+                    <p class="text-gray-700 mb-2">Django</p>
+                    <a href="#" class="text-blue-600">View on GitHub</a>
+                </div>
+                 <div class="bg-white shadow-lg rounded-lg hover:scale-105 transition">
+                    <img alt="Blutooth car" class="rounded mb-3">
+                    <h3 class="font-bold text-xl">Portfolio Website</h3>
+                    <p class="text-gray-700 mb-2">HTMl, CSS, JavaScript</p>
+                    <a href="#" class="text-blue-600">View on GitHub</a>
+                </div>
+            </div>
+         </section>
+
+         <!-- Contact -->
+          <section id="contact" class="p-10 bg-gray-100 text-center">
+            <h2 class="text-3xl font-bold text-blue-600 mb-6">Contact Me</h2>
+            <p class="mb-4 text-gray-700">Let's Connect on social media or drop email for me</p>
+            <div class="flex justify-center space-x-6">
+                <a href="">profile</a>
+                <a href="">email</a>
+                <a href="">insta</a>
+                <a href="">whatsapp</a>
+            </div>
+          </section>
+
+          <footer class="text-center p-4 bg-blue-600 text-white">
+            @ 2025 JeyaSurya M | All Rights Reserved
+          </footer>
+<script src="script.js">
+
+</script>
+</body>
+</html>
